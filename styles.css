@@ -40,8 +40,8 @@
 
   #text{
     font-family: Blippo, fantasy;
-    font-size: 5vh;
-    height: 20vh;
+    font-size: 4vh;
+    padding-bottom: 2vh;
   }
 
   .links{
