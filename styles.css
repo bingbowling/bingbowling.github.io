@@ -20,20 +20,20 @@
   }
 
   .logo{
-    margin-top: -10vh;
-    margin-bottom: -10vh;
-    width: 100vh;
-    height: 100vh;
+    margin-top: 5vh;
+    margin-bottom: -5vh;
+    width: 80vh;
+    height: 80vh;
   }
 
   #text{
     font-family: Blippo, fantasy;
-    font-size: 40px;
+    font-size: 5vh;
     height: 20vh;
   }
 
   .links{
-    padding: 0px 30px;
+    padding: 0vh 3vh;
     color: #e0e6e4;
   }
 
@@ -138,7 +138,7 @@
 
  #headAbout{
     opacity: 1;
-    font-size: 56px;
+    font-size: 7vh;
     text-align: center;
     color: #d8c9c9dc;
     font-weight: bold;
@@ -156,7 +156,7 @@
  #EventsAbout{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #d8c9c9dc;
-  padding: 25px;
+  padding: 3vh;
   opacity: 1;
   text-align: center;
   /*border: solid rgb(39, 38, 38) 2px;*/
@@ -167,14 +167,14 @@
  }
 
  .about p{
-  font-size: 22px;
-  padding: 0px 150px;
+  font-size: 3vh;
+  padding: 0vh 1vh;
  }
 
  .about{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    color: #d8c9c9dc;
-   padding: 25px;
+   padding: 2vh;
    line-height: 1.5;
    padding-top: 0;
    padding-left: 0;
@@ -182,7 +182,7 @@
  }
 
   p strong:first-of-type {
-    font-size: 36px;
+    font-size: 5vh;
  }
 
 
@@ -240,18 +240,17 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  padding-left: 15vh;
-  padding-right: 15vh;
+ 
 }
 
 #thead{
   text-align: center;
   padding: 2vh;
-  font-size: 22px;
+  font-size: 2.8vh;
 }
 
 #headtourn{
-  font-size: 56px;
+  font-size: 5.6vh;
 }
 
 #bodytourn{
@@ -263,19 +262,10 @@
   padding-top: 5vh;
 }
 
-#schen{
-  width: 18em;
-  height: 18em;
-}
-
-#suffolk{
-  width: 18em;
-  height: 18em;
-}
 
 .pads{
-  padding-right: 16vh;
-  padding-left: 16vh;
+  padding-right: 5vh;
+  padding-left: 5vh;
   padding-bottom: 3vh;
   padding-top: 10vh;
 }
@@ -293,16 +283,16 @@
 }  
 
 .child:first-child {
-  margin-right: 20px;
+  margin-right: 2vh;
 } 
 
 #schenBody{
-  font-size: 22px;
+  font-size: 2.8vh;
   font-weight:bold;
 }
 
 #suffolkBody{
-  font-size: 22px;
+  font-size: 2.8vh;
   font-weight:bold;
 }
 
@@ -316,8 +306,8 @@
 }
 
 .circlesize{
-  height: 32vh;
-  width: 32vh;
+  height: 25vh;
+  width: 25vh;
 }
 
 .block{
@@ -335,7 +325,7 @@
 }
 
 #admit{
-  font-size: 30px;
+  font-size: 3vh;
   color: #005A43
 }
 
@@ -354,18 +344,18 @@
 
 #contactT{
   border: solid #e6e6e6dc 2px;
-  font-size: 56px;
+  font-size: 7vh;
 }
 
 #contactBody{
-  font-size: 22px;
+  font-size: 2.2vh;
   padding-top: 0px;
 }
 
 #contact{
   color: #d6cecedc;
   background: linear-gradient(0deg, rgba(0,90,67,1) 20%, rgba(0,0,0,1) 100%);
-  padding: 0px;
+  padding: 0vh;
 }
 
 #insta{
@@ -373,8 +363,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 32vh;
-  width: 32vh;
+  height: 25vh;
+  width: 25vh;
 }
 
 #mail{
@@ -382,8 +372,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 32vh;
-  width: 32vh;
+  height: 25vh;
+  width: 25vh;
 }
 
 #face{
@@ -391,8 +381,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 32vh;
-  width: 32vh;
+  height: 25vh;
+  width: 25vh;
 }
 
 .mediaPads:hover {
@@ -418,6 +408,11 @@
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+ }
+
+ .size{
+  height: 100vh;
+  width: 160vh;
  }
 
 #cal{
@@ -451,22 +446,22 @@ form{
 form h2{
   color: #555;
   font-weight: 800;
-  margin-bottom: 20px;
+  margin-bottom: 20vh;
 }
 
 form input, form textarea{
   border: 0;
-  margin: 10px 0;
-  padding: 20px;
+  margin: 1vh 0;
+  padding: 2vh;
   outline: none;
   background: #f5f5f5;
-  font-size: 16px;
+  font-size: 2vh;
 }
 
 .Roster{
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 4vh 20vh;
+  padding: 4vh;
   background: rgb(0, 0, 0);
   color: #d6cecedc;
   font-size: 8vh;
