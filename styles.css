@@ -298,6 +298,10 @@
   text-decoration: none;
 } 
 
+.child:last-child {
+  padding-right: 0 !important;
+} 
+
 #schenBody{
   font-size: 2.8vh;
   font-weight:bold;
@@ -374,8 +378,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 20vh;
-  width: 20vh;
+  height: 20vw;
+  width: 20vw;
 }
 
 #mail{
@@ -383,8 +387,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 20vh;
-  width: 20vh;
+  height: 20vw;
+  width: 20vw;
 }
 
 #face{
@@ -392,8 +396,8 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 20vh;
-  width: 20vh;
+  height: 20vw;
+  width: 20vw;
 }
 
 .mediaPads:hover {
@@ -497,7 +501,7 @@ form input, form textarea{
     width: 75%;
     background: #005A43;
     color: #d6cecedc;
-    font-size: 1rem !important;
+    font-size: 2vh !important;
     border: 0;
     outline: none;
     cursor: pointer;
