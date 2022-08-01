@@ -33,9 +33,9 @@
 
   .logo{
     margin-top: 5vh;
-    margin-bottom: -5vh;
-    width: 80vh;
-    height: 80vh;
+    margin-bottom: 3vh;
+    width: 70vh;
+    height: 70vh;
   }
 
   #text{
@@ -501,7 +501,7 @@ form input, form textarea{
     width: 75%;
     background: #005A43;
     color: #d6cecedc;
-    font-size: 2vh !important;
+    font-size: 3vh !important;
     border: 0;
     outline: none;
     cursor: pointer;
