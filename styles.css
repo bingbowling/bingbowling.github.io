@@ -34,8 +34,8 @@
   .logo{
     margin-top: 5vh;
     margin-bottom: 3vh;
-    width: 70vh;
-    height: 70vh;
+    width: 60vh;
+    height: 60vh;
   }
 
   #text{
@@ -163,6 +163,8 @@
   /*border: solid rgb(39, 38, 38) 2px;*/
   color: #d8c9c9dc;
   font-weight: bold;
+  padding-left: 15vh;
+  padding-right: 15vh;
  }
 
  #EventsAbout{
@@ -172,6 +174,8 @@
   opacity: 1;
   text-align: center;
   /*border: solid rgb(39, 38, 38) 2px;*/
+  padding-left: 20vh;
+  padding-right: 20vh;
  }
 
  #about{
@@ -215,6 +219,8 @@
    margin: 0;
    padding: 1vh 2vh;
    text-align: center;
+   padding-left: 20vh;
+   padding-right: 20vh;
  }
 
  .league{
@@ -235,7 +241,8 @@
  #practicebody{
   display: inline;
   margin: 0;
-  padding: 1vh 2vh;
+  padding-left: 20vh;
+  padding-right:20vh;
   text-align: center;
 }
 
@@ -267,6 +274,8 @@
 
 #bodytourn{
   padding-bottom: 5vh;
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 
 #tmain{
@@ -318,6 +327,7 @@
 
 #prospective{
   background: linear-gradient(0deg, rgba(0,0,0,1) 40%, rgba(0,90,67,1) 100%);
+  
 }
 
 .circlesize{
@@ -514,3 +524,22 @@ form input, form textarea{
   .noUnderline{
     text-decoration: none;
   }
+
+#Pop{
+  border: solid lime 2px;
+  opacity: 1;
+  font-size: 7vh;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 2vh;
+  /*border: solid #e0e6e4 2px;*/
+}
+
+.PopLinks{
+  padding: 0vh 3vh;
+  color: Lime;
+}
+
+.PopLinks:hover{
+  color:blue;
+}
